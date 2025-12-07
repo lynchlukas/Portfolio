@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Portfolio</title>
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body class="bg-light">
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Your Name</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#work">Work Samples</a></li>
+          <li class="nav-item"><a class="nav-link" href="#growth">Before & After</a></li>
+          <li class="nav-item"><a class="nav-link" href="#awards">Awards</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="text-center bg-dark text-white py-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Portfolio</h1>
+      <p class="lead">Showcasing my best work, growth, and professional development.</p>
+      <a href="YOUR_RESUME_LINK" class="btn btn-outline-light btn-lg mt-3">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 fw-bold">About Me</h2>
+      <p>
+        Write a short professional introduction here. Include your field, goals, strengths,
+        and what motivates your work. This section should define who you are and what you offer.
+      </p>
+
+      <a href="YOUR_LINKEDIN_URL" class="btn btn-primary mt-2" target="_blank">Visit My LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- WORK SAMPLES -->
+  <section id="work" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="mb-4 fw-bold">Work Samples</h2>
+
+      <div class="row g-4">
+        <!-- Work Item -->
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="sample1.jpg" class="card-img-top" alt="Work Sample">
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <p class="card-text">Short description of one of your best or favourite projects.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Work Item -->
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="sample2.jpg" class="card-img-top" alt="Work Sample">
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <p class="card-text">Short description of another important piece of work.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Work Item -->
+        <div class="col-md-4">
+          <div class="card shadow-sm">
+            <img src="sample3.jpg" class="card-img-top" alt="Work Sample">
+            <div class="card-body">
+              <h5 class="card-title">Project Title</h5>
+              <p class="card-text">Short description of a project that shows your skills.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GROWTH SECTION (EARLY VS LATER WORK) -->
+  <section id="growth" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4 fw-bold">Growth: Earlier vs. Later Work</h2>
+
+      <div class="row gy-4">
+        <div class="col-md-6">
+          <div class="p-3 border rounded bg-white shadow-sm">
+            <h4>Earlier Work</h4>
+            <p>Describe your early work, your starting point, and what skills you were still learning.</p>
+            <img src="early.jpg" class="img-fluid rounded" alt="Early Work">
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="p-3 border rounded bg-white shadow-sm">
+            <h4>Later Work</h4>
+            <p>Show how you improved over time. Highlight new skills, techniques, and results.</p>
+            <img src="later.jpg" class="img-fluid rounded" alt="Later Work">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AWARDS -->
+  <section id="awards" class="py-5">
+    <div class="container">
+      <h2 class="mb-4 fw-bold">Awards & Recognition</h2>
+      <ul class="list-group">
+        <li class="list-group-item">Award Name - Description / Date</li>
+        <li class="list-group-item">Award Name - Description / Date</li>
+        <li class="list-group-item">Award Name - Description / Date</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="mb-4 fw-bold">Work & Volunteer Experience</h2>
+
+      <div class="row gy-4">
+        <div class="col-md-6">
+          <div class="border rounded p-3 shadow-sm">
+            <h4>Job Title – Company</h4>
+            <p class="text-muted">Dates Worked</p>
+            <p>Describe your responsibilities, skills used, and impacts you made.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="border rounded p-3 shadow-sm">
+            <h4>Volunteer Role – Organization</h4>
+            <p class="text-muted">Dates Volunteered</p>
+            <p>Describe contributions, leadership opportunities, and skills developed.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4 fw-bold">Contact</h2>
+
+      <form class="row g-3">
+        <div class="col-md-6">
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="col-md-6">
+          <input type="email" class="form-control" placeholder="Email Address">
+        </div>
+        <div class="col-12">
+          <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-dark px-4">Send</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-3">
+    <small>© 2025 Your Name. All rights reserved.</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
